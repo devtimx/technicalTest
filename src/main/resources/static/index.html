@@ -16,10 +16,18 @@
             max-width: 600px;
         }
 
-        input {
+        input,
+        select {
             width: 100%;
             padding: 10px;
             margin-top: 10px;
+            box-sizing: border-box;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
         }
 
         button {
@@ -60,7 +68,12 @@
 
     <input type="text" id="createName" placeholder="Nombre">
 
-    <input type="text" id="createStatus" placeholder="Status">
+    <label for="createStatus">Status:</label>
+    <select id="createStatus" name="status">
+        <option value="available">available</option>
+        <option value="pending">pending</option>
+        <option value="sold">sold</option>
+    </select>
 
     <button onclick="createPet()">
         Crear Mascota
