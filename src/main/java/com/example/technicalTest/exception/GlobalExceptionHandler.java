@@ -1,4 +1,4 @@
-package com.example.technicalTest.exception;
+package com.example.technicaltest.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

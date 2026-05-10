@@ -1,4 +1,4 @@
-package com.example.technicalTest.dto.response;
+package com.example.technicaltest.dto.response;
 
 import lombok.Builder;
 import lombok.Data;

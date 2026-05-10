@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet API Client</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        .container {
+            max-width: 600px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Pet API Client</h1>
+
+    <hr>
+
+    <h2>Buscar Mascota</h2>
+
+    <input type="number" id="petId" placeholder="Pet ID">
+
+    <button onclick="getPet()">
+        Obtener Mascota
+    </button>
+
+    <hr>
+
+    <h2>Crear Mascota</h2>
+
+    <input type="number" id="createId" placeholder="ID">
+
+    <input type="text" id="createName" placeholder="Nombre">
+
+    <input type="text" id="createStatus" placeholder="Status">
+
+    <button onclick="createPet()">
+        Crear Mascota
+    </button>
+
+    <hr>
+
+    <h2>Respuesta</h2>
+
+    <pre id="response"></pre>
+
+</div>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>

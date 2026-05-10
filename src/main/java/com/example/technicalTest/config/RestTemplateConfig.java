@@ -1,4 +1,4 @@
-package com.example.technicalTest.config;
+package com.example.technicaltest.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

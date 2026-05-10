@@ -1,19 +1,19 @@
-package com.example.technicalTest.service.impl;
+package com.example.technicaltest.service.impl;
 
-import com.example.technicalTest.client.petstore.PetStoreClient;
-import com.example.technicalTest.client.petstore.dto.PetStoreResponse;
-import com.example.technicalTest.dto.response.PetResponse;
-import com.example.technicalTest.service.PetService;
+import com.example.technicaltest.client.petstore.PetStoreClient;
+import com.example.technicaltest.client.petstore.dto.PetStoreResponse;
+import com.example.technicaltest.dto.response.PetResponse;
+import com.example.technicaltest.service.PetService;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.stereotype.Service;
 
-import com.example.technicalTest.dto.request.CreatePetRequest;
-import com.example.technicalTest.dto.response.CreatePetResponse;
+import com.example.technicaltest.dto.request.CreatePetRequest;
+import com.example.technicaltest.dto.response.CreatePetResponse;
 
-import com.example.technicalTest.client.petstore.dto.CreatePetExternalRequest;
+import com.example.technicaltest.client.petstore.dto.CreatePetExternalRequest;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

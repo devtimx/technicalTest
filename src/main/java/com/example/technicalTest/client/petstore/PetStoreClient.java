@@ -1,7 +1,7 @@
-package com.example.technicalTest.client.petstore;
+package com.example.technicaltest.client.petstore;
 
-import com.example.technicalTest.client.petstore.dto.CreatePetExternalRequest;
-import com.example.technicalTest.client.petstore.dto.PetStoreResponse;
+import com.example.technicaltest.client.petstore.dto.CreatePetExternalRequest;
+import com.example.technicaltest.client.petstore.dto.PetStoreResponse;
 
 import lombok.RequiredArgsConstructor;
 

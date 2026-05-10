@@ -1,4 +1,4 @@
-package com.example.technicalTest.client.petstore.dto;
+package com.example.technicaltest.client.petstore.dto;
 
 import lombok.Data;
 

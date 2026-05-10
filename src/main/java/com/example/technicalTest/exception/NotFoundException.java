@@ -1,4 +1,4 @@
-package com.example.technicalTest.exception;
+package com.example.technicaltest.exception;
 
 public class NotFoundException extends RuntimeException {
 
